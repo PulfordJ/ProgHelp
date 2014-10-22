@@ -22,6 +22,7 @@ stop = myLen
 while myLen>0 :
     myLen = myLen - 1
     printRow(myChar[0], myLen+1)
+myLen += 1
 while myLen<stop :
     myLen = myLen + 1
     printRow(myChar[0], myLen )
